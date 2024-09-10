@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multi-Niche Dropshipping Store</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="logo.png" width="100px" alt="Logo"></div>
+            
+            <!-- Location -->
+            <div class="location-selected">
+                <span>Delivering to [Location]</span>
+                <a href="#">Update Location</a>
+            </div>
+    
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <form action="#" class="search-form">
+                    <input type="text" id="search-input" placeholder="Search for products" class="search-input" onkeyup="showSuggestions(this.value)">
+                    <div id="suggestions" class="suggestions-box"></div>
+                 </form>
+            </div>
+    
+            <!-- Language Selector -->
+            <div class="preferred-language">
+                <select>
+                    <option value="en">EN</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+    
+            <!-- User Account -->
+            <div class="user-account">
+                <span>Hello, Sign in</span>
+                <a href="#">Account & Lists</a>
+            </div>
+    
+            <!-- Returns & Orders -->
+            <div class="return-and-orders">
+                <a href="#">Returns & Orders</a>
+            </div>
+    
+            <!-- Cart -->
+            <div class="cart">
+                <a href="#">Cart (0)</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+        </div>
+     </div>
+
+
+     <div id="quick-view-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="product-details"></div>
+        </div>
+     </div>
+
+     
+     <div id="purchase-notifications"></div>
+
+     <img src="placeholder.jpg" data-src="real-image.jpg" alt="Product Image" class="lazyload">
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content" id="hero-content">
+            <h1>Explore the Best in Fashion, Tech, and More</h1>
+            <p>Your one-stop-shop for all the latest trends</p>
+            <a href="#products" class="cta-btn">Shop Now</a>
+         </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section id="categories" class="categories-section">
+        <h2>Shop by Category</h2>
+        <div class="categories-grid">
+            <div class="category-item">
+                <img src="fashion.jpg" alt="Fashion">
+                <h3>Fashion</h3>
+                <a href="#">Explore Fashion</a>
+            </div>
+            <div class="category-item">
+                <img src="tech.jpeg" alt="Tech">
+                <h3>Tech Gadgets</h3>
+                <a href="#">Explore Tech</a>
+            </div>
+            <div class="category-item">
+                <img src="home.jpg" alt="Home Decor">
+                <h3>Home Decor</h3>
+                <a href="#">Explore Home Decor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="products-section">
+        <h2>Featured Products</h2>
+        <div class="products-grid">
+            <div class="product-item">
+                <img src="tech.jpeg" alt="Product 1">
+                <h3>Product Name</h3>
+                <p>$99.99</p>
+                <a href="#" class="product-btn">Buy Now</a>
+            </div>
+            <div class="product-item">
+                <img src="fashion.jpg" alt="Product 2">
+                <h3>Product Name</h3>
+                <p>$79.99</p>
+                <a href="#" class="product-btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Sign up for our newsletter to receive the latest news and exclusive offers</p>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="#">FAQ</a>
+            <a href="#">Terms of Service</a>
+        </div>
+
+        <img src="logo.png" width="70px" alt="">
+        <p>&copy; 2024 .fill. All rights reserved.</p>
+    </footer>
+    
+    <script src="home.js"></script>
+</body>
+</html>
